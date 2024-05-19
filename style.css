@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+#main{
+    width: 100%;
+    height: 100%;
+    /* background-color: crimson; */
+    
+}
+#nav{
+    width: 100%;
+    height: 10%;
+    /* background-color: rgb(255, 167, 135); */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+#nav img{
+    width: 3.5%;
+    height: 7%;
+    position: absolute;
+    left: 1%;
+   
+}
+#nav a{
+    text-decoration: none;
+    color: black;
+    margin-left: 2%;
+    /* padding: 5%; */
+    font-size: 20px;
+}
+#nav button{
+    margin-left: 5%;
+    padding: 8px 15px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    
+}
+#nav input{
+    margin-left: 2%;
+    padding: 8px;
+    padding-right: 50%;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(206, 202, 202);
+}
+#nav i{
+    /* padding: 1.5%; */
+    margin-left: 2%;
+    font-size: 25px;
+    color: rgb(98, 96, 96);
+   
+
+}
+#honey{
+    width: 20%;
+    height: 20%;
+    background-color: rgb(170, 167, 167);
+    position: absolute;
+    left: 45%;
+    bottom: 68%;
+    border-radius: 20px;
+}
+#honey h4{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+}
+#honey h2{
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#one{
+    width: 25%;
+    height: 65%;
+    background-color: lawngreen;
+    position: absolute;
+    left: 3%;
+    top: 15%;
+    border-radius: 25px;
+    rotate: -20deg;
+    background-image: url(h1\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid white;
+
+}
+#two{
+    width: 25%;
+    height: 65%;
+    background-color: rgb(252, 63, 0);
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    border-radius: 25px;
+    rotate: 10deg;
+    background-image: url(h2\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid white;
+}
+#three{
+    width: 25%;
+    height: 65%;
+    background-color: rgb(252, 0, 185);
+    position: absolute;
+    left: 15%;
+    top: 25%;
+    border-radius: 25px;
+    rotate: 30deg;
+    background-image: url(h3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid white;
+}
+.box{
+    width: 100%;
+    height: 65%;
+    /* background-color: lightskyblue; */
+    position: absolute;
+    bottom: 0%;
+    /* overflow: hidden; */
+    
+}
+#right{
+    width: 18%;
+    height: 40%;
+    background-color: fuchsia;
+    position: absolute;
+    left: 1%;
+    border-radius: 25px;
+    background-image: url(h4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#left{
+    width: 18%;
+    height: 55%;
+    background-color: rgb(161, 69, 161);
+    position: absolute;
+    left: 1%;
+    top: 45%;
+    border-radius: 25px;
+    background-image: url(h5\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+#up{
+    width: 18%;
+    height: 70%;
+    background-color: rgb(13, 255, 0);
+    position: absolute;
+    left: 20.5%;
+    top: 0;
+    border-radius: 25px;
+    background-image: url(h6\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    
+}
+#down{
+    width: 18%;
+    height: 25%;
+    background-color: rgb(255, 221, 0);
+    position: absolute;
+    left: 20.5%;
+    top: 75%;
+    border-radius: 25px;
+    background-image: url(h5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    
+}
+#top{
+    width: 18%;
+    height: 50%;
+    background-color: rgb(76, 0, 255);
+    position: absolute;
+    left: 40%;
+    top: 0;
+    border-radius: 25px;
+    background-image: url(h7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+#bottom{
+    width: 18%;
+    height: 45%;
+    background-color: rgb(0, 247, 255);
+    position: absolute;
+    left: 40%;
+    top: 55%;
+    border-radius: 25px;
+    background-image: url(h8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#four{
+    width: 18%;
+    height: 85%;
+    background-color: rgb(0, 255, 64);
+    position: absolute;
+    left: 59.5%;
+    top: 0%;
+    border-radius: 25px;
+    background-image: url(h9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#five{
+    width: 18%;
+    height: 50%;
+    background-color: rgb(255, 0, 30);
+    position: absolute;
+    left: 79.5%;
+    top: 0%;
+    border-radius: 25px;
+    background-image: url(h10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#six{
+    width: 18%;
+    height: 44%;
+    background-color: rgb(255, 162, 0);
+    position: absolute;
+    left: 79.5%;
+    top: 56%;
+    border-radius: 25px;
+    background-image: url(h11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#seven{
+    width: 18%;
+    height: 10%;
+    background-color: rgb(255, 81, 0);
+    position: absolute;
+    left: 59.5%;
+    top: 90%;
+    border-radius: 25px;
+    background-image: url(h13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+@media (max-width:500px) {
+    #nav a{
+        display: none;
+    }
+    #nav button{
+        padding: 5px 3px;
+        margin-left: 9%;
+    }
+    #nav img{
+        height: 5%;
+        width: 6%;
+    }
+
+    #nav input{
+        padding-right: 10%;
+    }
+    #honey{
+        width: 55%;
+        margin-left: -20%;
+        position: absolute;
+        top: 15%;
+    }
+    #right{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 20%;
+        left: 0;
+
+    }
+    #left{
+        width: 100%;
+        height: 150%;
+        position: absolute;
+        left: 0;
+        top: 130%;
+    }
+    #up{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 286%;
+
+    }
+    #down{
+        width: 100%;
+        height: 200%;
+        position: absolute;
+        left: 0;
+        top: 388%;
+
+    }
+    #top{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 590%;
+
+    }
+    #bottom{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 692%;
+
+    }
+    #four{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 794%;
+
+    }
+    #five{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 897%;
+
+    }
+    #six{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 998%;
+
+    }
+    #seven{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 1100%;
+        
+    }
+    
+
+}
